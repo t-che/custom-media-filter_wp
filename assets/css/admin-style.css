@@ -1,0 +1,24 @@
+/* Стили для кастомных фильтров */
+#mcmp-media-type,
+#mcmp-year,
+#mcmp-media-type-grid,
+#mcmp-year-grid {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/* Скрываем стандартные фильтры */
+#attachment-filter,
+#filter-by-date,
+#media-attachment-filters,
+#media-attachment-date-filters {
+    display: none !important;
+}
+
+/* Скрываем кнопку фильтрации */
+input[name="filter_action"] {
+    display: none !important;
+}
